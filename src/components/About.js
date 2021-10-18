@@ -83,7 +83,9 @@ export default function About() {
                     </p>
 
                     Soon more details will be uploaded
-                </div></div>
+                </div>
+                contact at warden
+            </div>
 
         </div >
     )
