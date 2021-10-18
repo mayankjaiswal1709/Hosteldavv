@@ -82,9 +82,9 @@ export default function About() {
                         <a style={{ color: "white", textDecoration: 'none' }} href="https://instagram.com/davvhostlers?utm_medium=copy_link"> &nbsp;Follow Us</a>
                     </p>
 
-                    Soon more details will be uploaded
+                    Soon more details will be uploaded....
                 </div>
-                contact at warden
+
             </div>
 
         </div >
