@@ -50,6 +50,18 @@
     color: rgb(29, 240, 100);
 }
 
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 50;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
 
 /* ------------------ */
 

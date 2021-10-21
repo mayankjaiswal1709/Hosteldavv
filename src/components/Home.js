@@ -6,18 +6,13 @@ import { Link } from 'react-router-dom'
 
 export default function Home() {
 
-    const [myStyle, setMyStyle] = useState(
-        {
-            color: 'white',
-            backgroundColor: 'black'
-        }
-    )
+
 
 
     return (
 
         <div>
-            <h1 style={{ color: "white", textDecoration: 'none', }}>DAVV HOSTELERS</h1>
+            <h1 style={{ color: "white", textDecoration: 'none' }}>DAVV HOSTELERS</h1>
 
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
@@ -44,37 +39,37 @@ export default function Home() {
             <div class="secContainer">
 
                 <div class="jcbh">
-                    <Link id="" to="./Clg Image Page/clg.html" target="blank">
+                    <Link id="" to="/Home" >
                         <img src="images/jcbh.jpg" alt="JCBH Boys Hostel" />
                         <h2 className="h2heading">JCBH Boys Hostel </h2>
                     </Link>
                 </div>
 
                 <div class="rnth">
-                    <Link id="" to="./Clg Image Page/clg.html" >
+                    <Link id="" to="/Home" >
                         <img src="images/rnth.jpg" alt=" RNTH BOYS Hostel" />
                         <h2 className="h2heading"> RNTH BOYS Hostel </h2>
                     </Link>
                 </div>
 
                 <div class="jnbh">
-                    <Link id="" to="./Clg Image Page/clg.html" >
+                    <Link id="" to="/Home" >
                         <img src="images/jnbh.jpg" alt="JNBH BOYS Hostel" />
                         <h2 className="h2heading"> JNBH Hostel</h2>
                     </Link>
                 </div>
 
                 <div class="girls">
-                    <Link id="" to="./Clg Image Page/clg.html">
+                    <Link id="" to="/Home">
                         <img src="images/girls.jpg" alt="Girls Hostel" />
+                        <h2 className="h2heading"> Girls Hostel </h2>
 
                     </Link>
-                    <h2 className="h2heading"> Girls Hostel </h2>
                 </div>
 
             </div>
 
-        </div>
+        </div >
 
 
 

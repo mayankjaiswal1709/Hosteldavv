@@ -9,7 +9,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+
 } from "react-router-dom";
 
 
@@ -20,17 +20,21 @@ function App() {
 
         <Navbar title="Davv Hostelers" aboutText="About Davv Hostelers" />
 
+
+
         <div className="container my-3">
 
           <Switch>
 
-            <Route path="/about">
+            <Route exact path="/Home">
+              <Home />
+            </Route>
+
+            <Route exact path="/about">
               <About />
             </Route>
 
-            <Route path="/Home">
-              <Home />
-            </Route>
+
 
           </Switch>
 
