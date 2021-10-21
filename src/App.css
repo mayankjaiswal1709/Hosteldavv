@@ -1,38 +1,186 @@
 .App {
-  text-align: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* ----------------------------- */
+
+.ulist:hover {
+    color: rgb(29, 240, 100);
+}
+
+.ulist a:hover {
+    color: rgb(29, 240, 100);
+}
+
+
+/* ------------------ */
+
+.secContainer {
+    /* border: 2px solid rgb(234, 0, 255); */
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 1vw; */
+    background-color: black;
+}
+
+.jcbh {
+    /* border: 2px solid rgb(0, 81, 255); */
+    animation: opacity 1s;
+    height: auto;
+}
+
+.jnbh {
+    /* border: 2px solid rgb(21, 255, 0); */
+    animation: opacity 2s;
+    height: auto;
+}
+
+.rnth {
+    /* border: 2px solid rgb(241, 15, 121); */
+    animation: opacity 3s;
+    height: auto;
+}
+
+.girls {
+    /* border: 2px solid rgb(0, 238, 255); */
+    animation: opacity 4s;
+    height: auto;
+}
+
+.jcbh img {
+    height: 13vw;
+    width: 100%;
+    overflow: visible;
+    margin-top: 1vw;
+    padding: 1vw;
+    display: block;
+    transition: 2s;
+}
+
+.rnth img {
+    height: 13vw;
+    width: 100%;
+    overflow: visible;
+    margin-top: 2vw;
+    padding: 1vw;
+    display: block;
+    transition: 2s;
+}
+
+.jnbh img {
+    height: 13vw;
+    width: 100%;
+    overflow: visible;
+    margin-top: 1vw;
+    padding: 1vw;
+    display: block;
+    transition: 2s;
+}
+
+.girls img {
+    height: 13vw;
+    width: 100%;
+    overflow: visible;
+    margin-top: 2vw;
+    padding: 1vw;
+    display: block;
+    transition: 2s;
+}
+
+.jcbh:hover img {
+    transform: scale3d(1.3);
+    transform: scale(1.2);
+}
+
+.rnth:hover img {
+    transform: scale3d(1.3);
+    transform: scale(1.2);
+}
+
+.jnbh:hover img {
+    transform: scale3d(1.3);
+    transform: scale(1.2);
+}
+
+.girls:hover img {
+    transform: scale3d(1.3);
+    transform: scale(1.2);
+}
+
+.jcbh h2 {
+    display: flex;
+    position: absolute;
+    top: 64vw;
+    right: 67vw;
+    font-size: 2vw;
+    color: white;
+    animation: opacity 3s;
+}
+
+.rnth h2 {
+    display: flex;
+    position: absolute;
+    top: 64vw;
+    right: 48vw;
+    font-size: 2vw;
+    color: white;
+    animation: opacity 3s;
+}
+
+.jnbh h2 {
+    display: flex;
+    position: absolute;
+    top: 64vw;
+    right: 34vw;
+    font-size: 2vw;
+    color: white;
+    animation: opacity 3s;
+}
+
+.girls h2 {
+    display: flex;
+    position: absolute;
+    top: 64vw;
+    right: 18vw;
+    font-size: 2vw;
+    color: white;
+    animation: opacity 3s;
 }

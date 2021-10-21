@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+
 export default function About() {
 
     const [myStyle, setMyStyle] = useState(
@@ -52,13 +53,13 @@ export default function About() {
                         {/* ----------------------------------------------------------------- */}
                         <h2>Hostels Details</h2>
 
-                        <ul>
-                            <li><a style={{ color: "white", textDecoration: 'none' }} href="https://www.dauniv.ac.in/public/frontassets/hostels/Hostel-Details21.pdf">Chief Warden,Phone No, Email Id, Fees Structure</a> </li>
-                            <li><a style={{ color: "white", textDecoration: 'none' }} href="https://www.dauniv.ac.in/public/frontassets/hostels/Admission-Form1.pdf">Hostel Accomodation Form</a> </li>
-                            <li><a style={{ color: "white", textDecoration: 'none' }} href="https://www.dauniv.ac.in/public/frontassets/hostels/ApplicationForMess21.pdf"> Applications Invited For Mess</a></li>
-                            <li><a style={{ color: "white", textDecoration: 'none' }} href="https://www.dauniv.ac.in/public/frontassets/hostels/fees%2019-20.pdf">Fee Structure Of D.A.V.V. Hostels for the Session 2019-20</a> </li>
-                            <li><a style={{ color: "white", textDecoration: 'none' }} href="https://www.dauniv.ac.in/public/frontassets/hostels/Hostel%20Entry.pdf">Notice For New Students</a> </li>
-                            <li><a style={{ color: "white", textDecoration: 'none' }} href="https://www.dauniv.ac.in/public/frontassets/hostels/SummerApplication.pdf"> Application Proforma to Stay in Hostel During Summer Vacation</a></li>
+                        <ul >
+                            <li className="ulist"><a className="ulist" style={{ color: "white", textDecoration: 'none' }} href="https://www.dauniv.ac.in/public/frontassets/hostels/Hostel-Details21.pdf">Chief Warden,Phone No, Email Id, Fees Structure</a> </li>
+                            <li className="ulist"><a className="ulist" style={{ color: "white", textDecoration: 'none' }} href="https://www.dauniv.ac.in/public/frontassets/hostels/Admission-Form1.pdf">Hostel Accomodation Form</a> </li>
+                            <li className="ulist"><a className="ulist" style={{ color: "white", textDecoration: 'none' }} href="https://www.dauniv.ac.in/public/frontassets/hostels/ApplicationForMess21.pdf"> Applications Invited For Mess</a></li>
+                            <li className="ulist"><a className="ulist" style={{ color: "white", textDecoration: 'none' }} href="https://www.dauniv.ac.in/public/frontassets/hostels/fees%2019-20.pdf">Fee Structure Of D.A.V.V. Hostels for the Session 2019-20</a> </li>
+                            <li className="ulist"><a className="ulist" style={{ color: "white", textDecoration: 'none' }} href="https://www.dauniv.ac.in/public/frontassets/hostels/Hostel%20Entry.pdf">Notice For New Students</a> </li>
+                            <li className="ulist"><a className="ulist" style={{ color: "white", textDecoration: 'none' }} href="https://www.dauniv.ac.in/public/frontassets/hostels/SummerApplication.pdf"> Application Proforma to Stay in Hostel During Summer Vacation</a></li>
                         </ul>
                     </div>
                     {/* ----------------------------------------------------------- */}
