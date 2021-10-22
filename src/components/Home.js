@@ -12,7 +12,7 @@ export default function Home() {
     return (
 
         <div>
-            <h1 style={{ color: "white", textDecoration: 'none' }}>DAVV HOSTELERS</h1>
+            <h1 className="mainhead">DAVV HOSTELERS</h1>
 
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
@@ -39,34 +39,38 @@ export default function Home() {
             <div class="secContainer">
 
                 <div class="jcbh">
-                    <Link id="" to="/Home" >
+                    <Link id="" to="/" >
                         <img src="images/jcbh.jpg" alt="JCBH Boys Hostel" />
                         <h2 className="h2heading">JCBH Boys Hostel </h2>
                     </Link>
                 </div>
 
                 <div class="rnth">
-                    <Link id="" to="/Home" >
+                    <Link id="" to="/" >
                         <img src="images/rnth.jpg" alt=" RNTH BOYS Hostel" />
                         <h2 className="h2heading"> RNTH BOYS Hostel </h2>
                     </Link>
                 </div>
 
                 <div class="jnbh">
-                    <Link id="" to="/Home" >
+                    <Link id="" to="/" >
                         <img src="images/jnbh.jpg" alt="JNBH BOYS Hostel" />
                         <h2 className="h2heading"> JNBH Hostel</h2>
                     </Link>
                 </div>
 
                 <div class="girls">
-                    <Link id="" to="/Home">
+                    <Link id="" to="/">
                         <img src="images/girls.jpg" alt="Girls Hostel" />
                         <h2 className="h2heading"> Girls Hostel </h2>
 
                     </Link>
                 </div>
 
+            </div>
+
+            <div className="blink">
+                Soon you will get more facility on this site...
             </div>
 
         </div >

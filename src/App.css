@@ -206,4 +206,39 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-decoration: none;
+    font-family: 'Source Code Pro', monospace, Arial, Helvetica, sans-serif;
+}
+
+.mainhead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(252, 252, 252);
+    text-decoration: white;
+    font-family: 'Source Code Pro', monospace, Arial, Helvetica, sans-serif;
+    letter-spacing: 0.4em;
+    animation: opacity 3s;
+}
+
+#carouselExampleControls {
+    animation: opacity 3s;
+}
+
+.blink {
+    color: red;
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
 }

@@ -82,8 +82,10 @@ export default function About() {
 
                         <a style={{ color: "white", textDecoration: 'none' }} href="https://instagram.com/davvhostlers?utm_medium=copy_link"> &nbsp;Follow Us</a>
                     </p>
+                    <div className="blink">
+                        Soon more details will be uploaded....
+                    </div>
 
-                    Soon more details will be uploaded....
                 </div>
 
             </div>
