@@ -4,7 +4,9 @@ import './App.css';
 import About from './components/About';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import HelpMeOut from './components/HelpMeOut';
 import React from "react";
+import Carousel from 'react-bootstrap/Carousel'
 import {
   BrowserRouter as Router,
   Switch,
@@ -26,6 +28,7 @@ function App() {
 
           <Switch>
 
+
             <Route exact path="/">
               <Home />
             </Route>
@@ -37,7 +40,6 @@ function App() {
 
 
           </Switch>
-
 
 
         </div>
