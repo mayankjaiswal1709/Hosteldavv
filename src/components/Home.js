@@ -65,7 +65,7 @@ export default function Home() {
                             src="images/girls.jpg"
                             alt="Third slide"
                         />
-                        S
+
                         <Carousel.Caption>
                             <h3>Girls Hostel</h3>
                             <p>soon we upload about girls hostel</p>

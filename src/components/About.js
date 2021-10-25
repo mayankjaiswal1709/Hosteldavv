@@ -101,7 +101,7 @@ export default function About() {
                                     E-mail Id: <Link style={{ color: "yellow", textDecoration: 'none' }} to="mailto:cwo.davv@gmail.com">cwo.davv@gmail.com</Link>
                                 </p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-                                <Button variant="outline-warning"> <Link className="btnhover" style={{ color: "white", textDecoration: 'none' }} to="/About">YES,HELP ME OUT</Link> </Button>{' '}
+                                <Button variant="outline-warning"> <Link className="btnhover" style={{ color: "white", textDecoration: 'none' }} to="/HelpMeOut">YES,HELP ME OUT</Link> </Button>{' '}
 
 
                             </p>

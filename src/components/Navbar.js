@@ -25,6 +25,10 @@ export default function Navbar(props) {
                             <Link className="nav-link" to="/About">{props.aboutDavvhostelers}About Davv Hostelers</Link>
                         </li>
 
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/HelpMeOut">{props.aboutDavvhostelers}Help</Link>
+                        </li>
+
                     </ul>
 
 

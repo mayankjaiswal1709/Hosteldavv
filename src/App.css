@@ -225,11 +225,35 @@
     animation: opacity 3s;
 }
 
+.mainhead2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    color: rgb(252, 252, 252);
+    text-decoration: white;
+    font-family: 'Source Code Pro', monospace, Arial, Helvetica, sans-serif;
+    letter-spacing: 0.6em;
+    animation: opacity 3s;
+}
+
+.mb-3 {
+    color: white;
+    width: 100vh;
+}
+
+.HelpForm {
+    display: flex;
+    justify-content: center;
+}
+
 #carouselExampleControls {
     animation: opacity 3s;
 }
 
 .blink {
+    display: flex;
+    justify-content: center;
     color: red;
     animation: blink-animation 1s steps(5, start) infinite;
     -webkit-animation: blink-animation 1s steps(5, start) infinite;

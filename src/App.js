@@ -6,7 +6,6 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import HelpMeOut from './components/HelpMeOut';
 import React from "react";
-import Carousel from 'react-bootstrap/Carousel'
 import {
   BrowserRouter as Router,
   Switch,
@@ -30,6 +29,7 @@ function App() {
 
 
             <Route exact path="/">
+
               <Home />
             </Route>
 
@@ -37,7 +37,9 @@ function App() {
               <About />
             </Route>
 
-
+            <Route exact path="/HelpMeOut">
+              <HelpMeOut />
+            </Route>
 
           </Switch>
 
