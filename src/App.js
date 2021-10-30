@@ -1,10 +1,10 @@
 
 import './App.css';
-
 import About from './components/About';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import HelpMeOut from './components/HelpMeOut';
+import Rnth from './components/Rnth';
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -41,12 +41,15 @@ function App() {
               <HelpMeOut />
             </Route>
 
+            <Route exact path="/Rnth">
+              <Rnth />
+            </Route>
+
+
           </Switch>
 
 
         </div>
-
-
 
       </Router>
 

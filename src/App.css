@@ -42,16 +42,9 @@
 
 /* ----------------------------- */
 
-.list:hover {
-    color: rgb(201, 83, 37);
-}
-
-.ulist:hover {
-    color: rgb(36, 33, 228);
-}
-
-.ul_li:hover {
-    color: rgb(162, 230, 3);
+.ulist {
+    text-decoration: none;
+    color: black;
 }
 
 @keyframes opacity {
@@ -65,6 +58,9 @@
         opacity: 100;
     }
 }
+
+
+/* =----------------------------------------- */
 
 
 /* ------------------ */
