@@ -64,7 +64,7 @@ export default function About() {
 
                             <ListGroup.Item as="li" variant="dark">
 
-                                <a className="ulist" href="https://www.dauniv.ac.in/public/frontassets/hostels/Hostel-Details21.pdf">Chief Warden,Phone No, Email Id, Fees Structure</a>
+                                <a className="ulist" target="_blank" href="https://www.dauniv.ac.in/public/frontassets/hostels/Hostel-Details21.pdf">Chief Warden,Phone No, Email Id, Fees Structure</a>
 
                             </ListGroup.Item>
 
