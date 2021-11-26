@@ -207,7 +207,7 @@
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    font-family: 'Source Code Pro', monospace, Arial, Helvetica, sans-serif;
+    font-family: "Source Code Pro", monospace, Arial, Helvetica, sans-serif;
 }
 
 .mainhead {
@@ -216,7 +216,7 @@
     justify-content: center;
     color: rgb(252, 252, 252);
     text-decoration: white;
-    font-family: 'Source Code Pro', monospace, Arial, Helvetica, sans-serif;
+    font-family: "Source Code Pro", monospace, Arial, Helvetica, sans-serif;
     letter-spacing: 0.4em;
     animation: opacity 3s;
 }
@@ -228,7 +228,7 @@
     margin-top: 2vh;
     color: rgb(252, 252, 252);
     text-decoration: white;
-    font-family: 'Source Code Pro', monospace, Arial, Helvetica, sans-serif;
+    font-family: "Source Code Pro", monospace, Arial, Helvetica, sans-serif;
     letter-spacing: 0.6em;
     animation: opacity 3s;
 }
@@ -278,4 +278,8 @@
 
 .btnhover:hover {
     color: black;
+}
+
+.h2hd {
+    align-items: center;
 }

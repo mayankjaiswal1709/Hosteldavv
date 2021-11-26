@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 // import Button from 'react-bootstrap/Button'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel'
+import ListGroup from 'react-bootstrap/ListGroup'
 
 
 
@@ -107,11 +108,67 @@ export default function Home() {
 
                 </div>
 
+                <div>
+                    {/* ----------------------------------------------------------------- */}
+                    <h2 className="h2hd"> Hostels Details</h2>
+
+
+
+
+                    <ListGroup as="ul"  >
+
+
+
+                        <ListGroup.Item as="li" variant="dark">
+
+                            <a className="ulist" target="_blank" href="https://www.dauniv.ac.in/public/frontassets/hostels/Hostel-Details21.pdf">Chief Warden,Phone No, Email Id, Fees Structure</a>
+
+                        </ListGroup.Item>
+
+                        <ListGroup.Item as="li" variant="dark">
+
+                            <a className="ulist" target="_blank" href="https://www.dauniv.ac.in/public/frontassets/hostels/Admission-Form1.pdf">Hostel Accomodation Form</a>
+
+                        </ListGroup.Item>
+
+
+                        <ListGroup.Item as="li" variant="dark">
+
+                            <a className="ulist" target="_blank" href="https://www.dauniv.ac.in/public/frontassets/hostels/ApplicationForMess21.pdf"> Applications Invited For Mess</a>
+
+                        </ListGroup.Item>
+
+                        <ListGroup.Item as="li" variant="dark">
+
+                            <a className="ulist" target="_blank" href="https://www.dauniv.ac.in/public/frontassets/hostels/fees%2019-20.pdf">Fee Structure Of D.A.V.V. Hostels for the Session 2019-20</a>
+
+                        </ListGroup.Item>
+
+                        <ListGroup.Item as="li" variant="dark">
+
+                            <a className="ulist" target="_blank" href="https://www.dauniv.ac.in/public/frontassets/hostels/Hostel%20Entry.pdf">Notice For New Students</a>
+
+                        </ListGroup.Item>
+
+                        <ListGroup.Item as="li" variant="dark">
+
+                            <a className="ulist" target="_blank" href="https://www.dauniv.ac.in/public/frontassets/hostels/SummerApplication.pdf"> Application Proforma to Stay in Hostel During Summer Vacation</a>
+
+                        </ListGroup.Item>
+
+
+
+                    </ListGroup>
+
+                </div>
+
                 <div className="blink">
                     Soon you will get more facility on this site...
                 </div>
 
             </div>
+
+
 
             <footer class="text-gray-400 bg-gray-900 body-font">
                 <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">

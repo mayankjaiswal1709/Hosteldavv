@@ -1,17 +1,21 @@
 
+import React from "react";
 import './App.css';
 import About from './components/About';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import HelpMeOut from './components/HelpMeOut';
 import Rnth from './components/Rnth';
-import React from "react";
+
+
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 
 } from "react-router-dom";
+import Admin from "./components/Admin/Admin";
+
 
 
 function App() {
@@ -22,7 +26,6 @@ function App() {
         <Navbar title="Davv Hostelers" aboutText="About Davv Hostelers" />
 
 
-
         <div className="container my-3">
 
           <Switch>
@@ -31,21 +34,27 @@ function App() {
             <Route exact path="/">
 
               <Home />
+
             </Route>
 
-            <Route exact path="/about">
+            <Route path="/about">
               <About />
             </Route>
 
-            <Route exact path="/HelpMeOut">
+            <Route path="/HelpMeOut">
               <HelpMeOut />
             </Route>
 
-            <Route exact path="/Rnth">
+            <Route path="/Rnth">
               <Rnth />
             </Route>
 
+            <Route path="/adminmj">
 
+              <Admin />
+
+            </Route>
+            
           </Switch>
 
 

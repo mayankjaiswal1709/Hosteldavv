@@ -2,12 +2,26 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 // import Button from 'react-bootstrap/Button'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Form from 'react-bootstrap/Form'
 
 
 
-export default function Home() {
 
+export default function HelpMeOut(props) {
+
+    let user = {
+        name: 'Jesse',
+
+        contact: {
+            email: 'codestackr@gmail.com'
+        }
+    }
+    const handleClick = async () => {
+
+        
+
+
+
+    };
 
 
 
@@ -28,33 +42,42 @@ export default function Home() {
 
             <section class="text-gray-400 bg-gray-900 body-font relative">
                 <div class="container px-5 py-24 mx-auto">
-                    <div class="flex flex-col text-center w-full mb-12">
+                    <div class="flex flex-col text-center w-full mb-12">0
                         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact Us</h1>
                         <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Share your message with us</p>
                     </div>
                     <div class="lg:w-1/2 md:w-2/3 mx-auto">
+
                         <div class="flex flex-wrap -m-2">
+
                             <div class="p-2 w-1/2">
+
                                 <div class="relative">
+
                                     <label for="name" class="leading-7 text-sm text-gray-400">Name</label>
                                     <input type="text" id="name" name="name" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-yellow-500 focus:bg-gray-900 focus:ring-2 focus:ring-yellow-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+
                                 </div>
                             </div>
+
                             <div class="p-2 w-1/2">
                                 <div class="relative">
                                     <label for="email" class="leading-7 text-sm text-gray-400">Email</label>
                                     <input type="email" id="email" name="email" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-yellow-500 focus:bg-gray-900 focus:ring-2 focus:ring-yellow-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
                             </div>
+
                             <div class="p-2 w-full">
                                 <div class="relative">
                                     <label for="message" class="leading-7 text-sm text-gray-400">Message</label>
                                     <textarea id="message" name="message" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-yellow-500 focus:bg-gray-900 focus:ring-2 focus:ring-yellow-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                                 </div>
                             </div>
+
                             <div class="p-2 w-full">
-                                <button class="flex mx-auto text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">Done</button>
+                                <button class="flex mx-auto text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg" onClick={props.handleClick}>Done</button>
                             </div>
+
                             <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
                                 <Link class="text-yellow-400">davvhostlers@gmail.com</Link>
                                 <p class="leading-normal my-5">139,
