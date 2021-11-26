@@ -51,7 +51,59 @@ export default function About() {
                         </div>
                     </div>
                     <br />
-                   
+                    <div>
+                        {/* ----------------------------------------------------------------- */}
+                        <h2>Hostels Details</h2>
+
+
+
+
+                        <ListGroup as="ul"  >
+
+
+
+                            <ListGroup.Item as="li" variant="dark">
+
+                                <a className="ulist" target="_blank" href="https://www.dauniv.ac.in/public/frontassets/hostels/Hostel-Details21.pdf">Chief Warden,Phone No, Email Id, Fees Structure</a>
+
+                            </ListGroup.Item>
+
+                            <ListGroup.Item as="li" variant="dark">
+
+                                <a className="ulist" href="{'https://www.dauniv.ac.in/public/frontassets/hostels/Admission-Form1.pdf'}">Hostel Accomodation Form</a>
+
+                            </ListGroup.Item>
+
+
+                            <ListGroup.Item as="li" variant="dark">
+
+                                <a className="ulist" href="{https://www.dauniv.ac.in/public/frontassets/hostels/ApplicationForMess21.pdf}"> Applications Invited For Mess</a>
+
+                            </ListGroup.Item>
+
+                            <ListGroup.Item as="li" variant="dark">
+
+                                <a className="ulist" href="{https://www.dauniv.ac.in/public/frontassets/hostels/fees%2019-20.pdf}">Fee Structure Of D.A.V.V. Hostels for the Session 2019-20</a>
+
+                            </ListGroup.Item>
+
+                            <ListGroup.Item as="li" variant="dark">
+
+                                <a className="ulist" href="{https://www.dauniv.ac.in/public/frontassets/hostels/Hostel%20Entry.pdf}">Notice For New Students</a>
+
+                            </ListGroup.Item>
+
+                            <ListGroup.Item as="li" variant="dark">
+
+                                <a className="ulist" href="{https://www.dauniv.ac.in/public/frontassets/hostels/SummerApplication.pdf}"> Application Proforma to Stay in Hostel During Summer Vacation</a>
+
+                            </ListGroup.Item>
+
+
+
+                        </ListGroup>
+
+                    </div>
                     {/* ----------------------------------------------------------- */}
 
                     <div>
